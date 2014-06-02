@@ -2,7 +2,7 @@ title:            Jon Burgess
 description:      Web developer
 disqus_shortname: 
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://localhost:4000
+url:              http://jongsy.github.io/personal-site-jekyll/
 
 # Owner/author information
 owner:
