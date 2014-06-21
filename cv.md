@@ -15,7 +15,7 @@ share: false
 |----
 
 
-Passionate and ambitous Front end developer with a broad technical skill-set and high attention to detail.
+Passionate and ambitious Front end developer with a broad technical skill-set and high attention to detail.
 
 Developer experience gained as part of a team in an agency setting and freelance work. Enjoys experimenting with new languages and frameworks.
 
@@ -49,7 +49,7 @@ Web Developer *(June 2011 - Present)*
 
 **Responsibilities**
 
-- Developement and maintenance of high performance responsive websites/Mobile apps for a variety or local and national clients using a variety of web technologies and generating reusable code along the way
+- Development and maintenance of high performance responsive websites/Mobile apps for a variety or local and national clients using a variety of web technologies and generating reusable code along the way
 - Create and contribute to reusable internal custom Drupal modules
 - Assist in planning solutions for new and existing clients
 - Leveraging version control and migrating existing websites to Git
@@ -60,7 +60,7 @@ Web Developer *(June 2011 - Present)*
 **Accomplishments**
 
 - Recently lead developer on a large Drupal website for a local estate agents ([materlmaides.co.uk](http://www.martelmaides.co.uk)) which is managed both through the CMS and via an external property management system.
-- Implemented a standardized approach to develpment using Grunt to streamline the initial phase of development
+- Implemented a standardised approach to development using Grunt to streamline the initial phase of development
 - Created 2 mobile applications for iOS and Android
 
 ####Freelance 
@@ -71,8 +71,8 @@ Worked on a variety of web projects for a range of clients which has lead to imp
 
 **Accomplishments**
 
-- Developed a small mobile application for iOS and Android (currenly waiting to go live) for Flexiant (a cloud software company) to capture user data for their marketing team. Uses Phonegap due to a limited budget.
-- Optimized performance on an existing recruitment website, including migration to a new server.
+- Developed a small mobile application for iOS and Android (currently waiting to go live) for Flexiant (a cloud software company) to capture user data for their marketing team. Uses Phonegap due to a limited budget.
+- Optimised performance on an existing recruitment website, including migration to a new server.
 
 ### Education
 
@@ -87,5 +87,4 @@ Worked on a variety of web projects for a range of clients which has lead to imp
 
 - Volunteer at [Code Club](https://www.codeclub.org.uk/), a national network of free after-school coding clubs for children aged 9-11
 - Tennis, football, gym.
-
 
