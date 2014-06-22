@@ -1,43 +1,212 @@
-<!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-{% include head.html %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jonathan Burgess Web Developer">
+    <meta name="author" content="Jonathan Burgess">
+
+    <title>Jon Burgess - Web Developer</title>
+
+    {% include head.html %}
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ site.url }}/assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Google Web Font -->
+    <link href="{{ site.url }}/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Add custom CSS here -->
+    <link href="{{ site.url }}/assets/css/landing-page.css" rel="stylesheet">
+
 </head>
 
-<body id="post-index" {% if page.image.feature %}class="feature"{% endif %}>
+<body>
 
-{% include browser-upgrade.html %}
-{% include navigation.html %}
+    {% include browser-upgrade.html %}
+    {% include navigation.html %}
 
-<div class="entry-header">
-  {% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
-  {% if page.image.feature %}
-    <div class="entry-image">
-      <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
-    </div><!-- /.entry-image -->
-  {% endif %}
-  <div class="header-title">
-    <div class="header-title-wrap">
-      <h1>{{ site.title }}</h1>
-      <h2>{{ page.title }}</h2>
-    </div><!-- /.header-title-wrap -->
-  </div><!-- /.header-title -->
-</div><!-- /.entry-header -->
+    <div class="intro-header">
 
-<div id="main" role="main">
-  {{ content }}
-</div><!-- /#main -->
+        <div class="container">
 
-<div class="footer-wrapper">
-  <footer role="contentinfo">
-    {% include footer.html %}
-  </footer>
-</div><!-- /.footer-wrapper -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Jon Burgess</h1>
+                        <h3>Web Development Portfolio</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">                          
+                            <li><a href="https://github.com/jongsy/" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            </li>
+                            <li><a href="uk.linkedin.com/pub/jonathan-burgess/33/238/5/" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-{% include scripts.html %}          
+        </div>
+        <!-- /.container -->
 
+    </div>
+    <!-- /.intro-header -->
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-9">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">I'm a passionate British Web Developer<br> currently based in Guernsey</h2>
+                    <p class="lead">
+                    I have experience creating sites with varied web technologies, frameworks and CMSs <br>such as <a href="http://drupal.org" target="_blank">Drupal</a>, a PHP CMS, Laravel, Node and some .NET MVC.</p> <p class="lead">
+                    I also am using a number of front end frameworks and build tools to quickly provide a modern front end for these sites such as: SCSS, jQuery, Bootstrap, Angular and grunt.</p> <p class="lead">
+                    Take a look at some stuff I've worked on recently below, my <a href="https://github.com/jongsy/" target="_blank">Github</a> to see some side projects or my <a href="/cv">Resume</a>.
+                    </p><p>
+                    I'm currently employed at <a href="http://www.indulgemedia.com" target="_blank">Induge</a>.</p>
+                </div>
+                <!-- <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="/images/mm.jpg" alt="">
+                </div> -->
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Goldridge</h2>
+                    <p>Developed while at <a href="http://www.indulgemedia.com" target="_blank">Indulge</a>
+                    <p class="lead">
+                      A Drupal based site for an estate Agents based in Guernsey. Took on development once handed a set of static designs through to completion.
+                    </p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="/images/goldridge_screenshot_1.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading"> Martel Maides</h2>
+                    <p>Developed while at <a href="http://www.indulgemedia.com" target="_blank">Indulge</a>
+                    <p class="lead">Another Drupal site for a local estate agents. I was lead  developer on this project that uses 2 external property management systems to populate the site.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="/images/mm.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Flexiant Marketing app</h2>
+                    <p class="lead">
+                      A freelance project for a London based cloud software company.
+                    </p><p class="lead">
+                    The company required a cheap app on iOS and Android that could capture emails when they were proesenting and networking at conferences. I opted to use phonegap to fill this requirement and a Drupal Back end.
+                    </p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="/images/unnamed.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline banner-social-buttons">
+                        
+                        <li><a href="https://github.com/jongsy/" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        </li>
+                        <li><a href="uk.linkedin.com/pub/jonathan-burgess/33/238/5/" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+    <!-- <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li><a href="#home">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="#about">About</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="#services">Services</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; Your Company 2013. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+    <!-- JavaScript -->
+    <script src="{{ site.url }}/assets/js/jquery-1.10.2.js"></script>
+    <script src="{{ site.url }}/assets/js/bootstrap.js"></script>
+    {% include scripts.html %}  
 </body>
+
 </html>

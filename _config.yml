@@ -2,13 +2,13 @@ title:            Jon Burgess
 description:      Web developer
 disqus_shortname: 
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://jonburgess.info
+url:              http://localhost:4000
 
 # Owner/author information
 owner:
   name:           Jon burgess
   avatar:         avatar.jpg
-  bio:            "Web developer currently tinkering from tropical Guernsey."
+  bio:            "Web developer currently based in tropical Guernsey."
   email:          jonburgess.10@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
@@ -34,8 +34,8 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  # - title: CV
-  #   url: /cv
+  - title: CV
+    url: /cv
   # - title: test
   #   url: /ts
   - title: Github

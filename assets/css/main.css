@@ -1496,6 +1496,7 @@ svg:not(:root) {
   margin: 0;
   font-size: 14px;
   font-size: 0.875rem;
+  font-size: 14px !important;
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -1517,6 +1518,7 @@ svg:not(:root) {
   padding: 15px 20px;
   font-size: 14px;
   font-size: 0.875rem;
+  font-size: 14px !important;
   font-weight: 300;
   line-height: 20px;
   color: #ffffff;
@@ -1788,6 +1790,7 @@ All this is done for any sub-level being entered.
 /* No Touch Fallback */
 
 .no-touch .dl-menuwrapper li a:hover {
+  text-decoration: none !important;
   background: rgba(255, 248, 213, 0.1);
 }
 
