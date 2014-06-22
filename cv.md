@@ -88,3 +88,58 @@ Worked on a variety of web projects for a range of clients which has lead to imp
 - Volunteer at [Code Club](https://www.codeclub.org.uk/), a national network of free after-school coding clubs for children aged 9-11
 - Tennis, football, gym.
 
+###Recent work and Side projects
+
+*While working at Indulge Media*:
+
+**Martel Maides** - [http://www.martelmaides.co.uk](http://www.martelmaides.co.uk)
+
+*A content heavy Drupal powered responsive site that is populated via 2 external property management systems. Developed while at Indulge Media*
+
+<img src="/images/mm.jpg" style="max-width:540px; margin-left:0px; width: 50%;" />
+
+Role: Lead Developer
+
+Responsibilities: Development, Manage development resources between myself and one other developer, Be a contact point for the client along with the project manager, Resolve issues with external APIs, Deployment.
+
+Challenges: Integrating an outdated XML API with Drupal using cron and queues, managing client expectations with a constantly evolving brief.
+
+**Goldridge** - [http://www.goldridge.gg/](http://www.goldridge.gg/)
+
+*Another Drupal powered site for an estate agents. Once handed the full designs did the vast majority of the development*
+
+<img src="/images/goldridge_screenshot_1.jpg" style="max-width:540px; margin-left:0px; width: 50%;" />
+
+Role: main Developer
+
+Responsibilities: Development, Contact point for client, Deployment.
+
+Challenges: Implementing a responsive, cross browser user interface on the property pages including custom floorplan markers that relate to the main gallery implemented with custom a custom Drupal module.
+
+*Freelance work*:
+
+**Flexiant Marketing Phonegap application**
+
+*iOS and Android application built to slim budget using Phonegap built for a large Cloud software provider. Simple REST API created to capture emails and integrate with HubSpot*
+
+<img src="/images/unnamed.png" style="max-width:200px; margin-left:0px; width: 50%;" />
+
+Responsibilities: Project specification and planning, Budget/Time estimates, Back/Front-end development, contracting/managing a designer.
+
+Challenges: Keeping the entire project to a slim budget.
+
+*Side projects*:
+
+**Jolt** - [https://github.com/jongsy/jolt](https://github.com/jongsy/jolt)
+
+*In browser HTML development environment designed to give the Children at Code club everything required to create and publish simple websites that the school can monitor*
+
+Built with Laravel. Project still in it's early stages.
+
+**Natural Bets** - [https://github.com/jongsy/Mean-Bets/tree/master/packages/bets](https://github.com/jongsy/Mean-Bets/tree/master/packages/bets)
+
+*A betting application that uses the MEAN (Mongo, Express, Angular, Node) stack*
+
+The app is being developed to help keep track of football bets during the world cup. Allows you to quickly input a bet as a sentence and displays graphs of winnings(hopefully!) using D3.js
+
+
