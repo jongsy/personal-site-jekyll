@@ -15,11 +15,11 @@ share: false
 |----
 
 
-Passionate and ambitious Front end developer with a broad technical skill-set and high attention to detail.
+Passionate and ambitious web developer with a broad technical skill-set and high attention to detail.
 
 Developer experience gained as part of a team in an agency setting and freelance work. Enjoys experimenting with new languages and frameworks.
 
-Highly motivated and keen for a role with opportunity for progression. 
+Highly motivated and keen for a role with opportunity for learning and progression. 
 
 
 ### Technical Skills
@@ -37,6 +37,7 @@ Highly motivated and keen for a role with opportunity for progression.
 
 - Exporting design assets from Fireworks/Photoshop
 - Apache server deployment and configuration
+- Experience with AWS (installing/configuring EC2, Route 53)
 - Strong & professional interpersonal skills
 - Understanding of SEO and Google Analytics fundamentals
 
